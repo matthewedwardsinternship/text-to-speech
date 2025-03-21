@@ -1,0 +1,68 @@
+body, html {
+	background-color: #000;
+	color: rgb(240, 240, 240);
+	font-size: 4vmin;
+}
+#main {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+#title, #button {
+	padding: 1em;
+	color: inherit;
+	font: inherit;
+	font-family: helvetica, arial;
+	font-weight: 100;
+}
+#title {
+	position: relative;
+}
+#created-by {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: 0.5em;
+	font-size: 0.5em;
+	transition: font-size 0.25s;
+	cursor: pointer;
+}
+#created-by:hover {
+	font-size: 1em;
+}
+#button {
+	outline: none;
+	border: none;
+	background-color: #000;
+	transition: background-color 1s;
+	cursor: pointer;
+}
+#button:hover {
+	background-color: rgb(40, 40, 40);
+}
+#textarea-wrapper {
+	flex: 1;
+	position: relative;
+}
+#textarea {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	line-height: 1.5;
+	padding: 1em;
+	box-sizing: border-box;
+	font-size: inherit;
+	font-family: helvetica, arial;
+	outline: none;
+	border: none;
+	color: #000;
+	background-color: #fff;
+}
