@@ -30,6 +30,8 @@ body, html {
 	font-size: 0.5em;
 	transition: font-size 0.25s;
 	cursor: pointer;
+	color: inherit;
+	text-decoration: none;
 }
 #created-by:hover {
 	font-size: 1em;
